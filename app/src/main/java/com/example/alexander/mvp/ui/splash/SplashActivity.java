@@ -10,7 +10,7 @@ import com.example.alexander.mvp.R;
 import com.example.alexander.mvp.data.DataManager;
 import com.example.alexander.mvp.ui.base.BaseActivity;
 import com.example.alexander.mvp.ui.login.LoginActivity;
-import com.example.alexander.mvp.MainActivity;
+import com.example.alexander.mvp.ui.main.MainActivity;
 
 
 

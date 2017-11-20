@@ -32,7 +32,7 @@ public class MainActivity extends BaseActivity implements MainMvpView {
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        DataManager dataManager=((MvpApp)getApplication()).getDataManger();
+        DataManager dataManager=((MvpApp)getApplication()).getDataManager();
         mainPresenter=new MainPresenter(dataManager);
         mainPresenter.onAttach(this);
         textViewShow=(TextView)findViewById(R.id.textViewShow);

@@ -14,10 +14,10 @@ public class SplashPresenter<V extends SplashMvpView> extends BasePresenter<V>im
 
     @Override
     public void decideNextActivity() {
-        if(getmDataManager().getLoggedInMode()){
-            getmMvpView().openMainActivity();
+        if(getDataManager().getLoggedInMode()){
+            getMvpView().openMainActivity();
         } else {
-            getmMvpView().openLoginActivity();
+            getMvpView().openLoginActivity();
         }
     }
 }
